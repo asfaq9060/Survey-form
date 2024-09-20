@@ -105,9 +105,7 @@ label {
     
 
 }
- .opt option{
-    opacity: 0.1;
- }
+ 
 .main-radio {
     display: block;
     position: relative;
@@ -138,8 +136,6 @@ label {
 .rad span {
     margin: 5px 0 0 10;
     position: absolute;
-
-
 }
 
 .main-radio h4 {
