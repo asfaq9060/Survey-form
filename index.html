@@ -1,0 +1,98 @@
+<html>
+    
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="free.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <h1 id="title">freeCodeCamp Survey Form
+            </h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </div>
+
+        <div class="main-form">
+            <form id="survey-form">
+
+                <div class="main name">
+                    <label id="name-label">Name
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </label>
+                </div>
+
+                <div class="main email">
+                    <label id="email-label">Email
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </label>
+                </div>
+
+                <div class="main num">
+                    <label id="number-label">Number
+                        <input id="number" placeholder="Enter a number" min="0" max="9" type="number">
+                    </label>
+                </div>
+
+
+                <div class="main dropdown">
+                    <label>Which option best describes your current role?<br>
+                        <select id="dropdown">
+                            <div class="opt">
+                                <option value="Student">Student</option>
+                                <option value="Full time job">Full time job</option>
+                                <option value="Full time learner">Full time learner</option>
+                                <option value="Other">Other</option>
+                            </div>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="main-radio">
+                    <h4>Gender</h4>
+                    <div class="gender-item">
+                        <div class="rad"> <input type="radio" name="Gender" value="Male"><span>Male</span> </div>
+
+                        <div class="rad"> <input type="radio" name="Gender" value="Female"><span>Female</span></div>
+
+                        <div class="rad"> <input type="radio" name="Gender" value="Other"><span>Other</span> </div>
+                    </div>
+
+                </div>
+
+                <div class="main-checkbox">
+                    <label>What would you like to see improved? (Check all that apply)<br>
+                        <div class="item">
+                            <div class="check">
+                                <input type="checkbox" value="Front-end Projects"><span>Front-end Projects</span><br>
+                                <input type="checkbox" value="Back-end Projects"><span>Back-end Projects</span><br>
+                                <input type="checkbox" value="Data Visualization"><span> Data</span> <br>
+                                <input type="checkbox" value="Challenges"><span> Challenges</span><br>
+                                <input type="checkbox" value="Videos"><span> Videos</span><br>
+                                <input type="checkbox" value="Additional Courses"><span> Courses</span><br>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="comment">
+                    <label>Any comments or suggestions?
+                        <br>
+                        <textarea value="textarea" placeholder="Enter your comments..."></textarea>
+                    </label>
+                </div>
+                <button id="submit">Submit</button>
+        </div>
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
